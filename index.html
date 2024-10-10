@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FarCry Extreme</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg fixed-top shadow-lg" id="mainNav">
+        <div class="container px-5 py-2">
+            <a class="navbar-brand fw-bold" href="/index.html"> &nbsp&nbsp&nbspFar Cry <br> Unleashed</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                    <li class="nav-item px-1"> 
+                        <div class="voltage-button">
+                        <button id="button-font">Features</button>
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 234.6 61.3" preserveAspectRatio="none" xml:space="preserve">
+                        
+                            <filter id="glow">
+                            <feGaussianBlur class="blur" result="coloredBlur" stdDeviation="2"></feGaussianBlur>
+                            <feTurbulence type="fractalNoise" baseFrequency="0.075" numOctaves="0.3" result="turbulence"></feTurbulence>
+                        <feDisplacementMap in="SourceGraphic" in2="turbulence" scale="30" xChannelSelector="R" yChannelSelector="G" result="displace"></feDisplacementMap>
+                            <feMerge>
+                                <feMergeNode in="coloredBlur"></feMergeNode>
+                                <feMergeNode in="coloredBlur"></feMergeNode>
+                                <feMergeNode in="coloredBlur"></feMergeNode>
+                                <feMergeNode in="displace"></feMergeNode>
+                                <feMergeNode in="SourceGraphic"></feMergeNode>
+                            </feMerge>
+                            </filter>
+                            <path class="voltage line-1" d="m216.3 51.2c-3.7 0-3.7-1.1-7.3-1.1-3.7 0-3.7 6.8-7.3 6.8-3.7 0-3.7-4.6-7.3-4.6-3.7 0-3.7 3.6-7.3 3.6-3.7 0-3.7-0.9-7.3-0.9-3.7 0-3.7-2.7-7.3-2.7-3.7 0-3.7 7.8-7.3 7.8-3.7 0-3.7-4.9-7.3-4.9-3.7 0-3.7-7.8-7.3-7.8-3.7 0-3.7-1.1-7.3-1.1-3.7 0-3.7 3.1-7.3 3.1-3.7 0-3.7 10.9-7.3 10.9-3.7 0-3.7-12.5-7.3-12.5-3.7 0-3.7 4.6-7.3 4.6-3.7 0-3.7 4.5-7.3 4.5-3.7 0-3.7 3.6-7.3 3.6-3.7 0-3.7-10-7.3-10-3.7 0-3.7-0.4-7.3-0.4-3.7 0-3.7 2.3-7.3 2.3-3.7 0-3.7 7.1-7.3 7.1-3.7 0-3.7-11.2-7.3-11.2-3.7 0-3.7 3.5-7.3 3.5-3.7 0-3.7 3.6-7.3 3.6-3.7 0-3.7-2.9-7.3-2.9-3.7 0-3.7 8.4-7.3 8.4-3.7 0-3.7-14.6-7.3-14.6-3.7 0-3.7 5.8-7.3 5.8-2.2 0-3.8-0.4-5.5-1.5-1.8-1.1-1.8-2.9-2.9-4.8-1-1.8 1.9-2.7 1.9-4.8 0-3.4-2.1-3.4-2.1-6.8s-9.9-3.4-9.9-6.8 8-3.4 8-6.8c0-2.2 2.1-2.4 3.1-4.2 1.1-1.8 0.2-3.9 2-5 1.8-1 3.1-7.9 5.3-7.9 3.7 0 3.7 0.9 7.3 0.9 3.7 0 3.7 6.7 7.3 6.7 3.7 0 3.7-1.8 7.3-1.8 3.7 0 3.7-0.6 7.3-0.6 3.7 0 3.7-7.8 7.3-7.8h7.3c3.7 0 3.7 4.7 7.3 4.7 3.7 0 3.7-1.1 7.3-1.1 3.7 0 3.7 11.6 7.3 11.6 3.7 0 3.7-2.6 7.3-2.6 3.7 0 3.7-12.9 7.3-12.9 3.7 0 3.7 10.9 7.3 10.9 3.7 0 3.7 1.3 7.3 1.3 3.7 0 3.7-8.7 7.3-8.7 3.7 0 3.7 11.5 7.3 11.5 3.7 0 3.7-1.4 7.3-1.4 3.7 0 3.7-2.6 7.3-2.6 3.7 0 3.7-5.8 7.3-5.8 3.7 0 3.7-1.3 7.3-1.3 3.7 0 3.7 6.6 7.3 6.6s3.7-9.3 7.3-9.3c3.7 0 3.7 0.2 7.3 0.2 3.7 0 3.7 8.5 7.3 8.5 3.7 0 3.7 0.2 7.3 0.2 3.7 0 3.7-1.5 7.3-1.5 3.7 0 3.7 1.6 7.3 1.6s3.7-5.1 7.3-5.1c2.2 0 0.6 9.6 2.4 10.7s4.1-2 5.1-0.1c1 1.8 10.3 2.2 10.3 4.3 0 3.4-10.7 3.4-10.7 6.8s1.2 3.4 1.2 6.8 1.9 3.4 1.9 6.8c0 2.2 7.2 7.7 6.2 9.5-1.1 1.8-12.3-6.5-14.1-5.5-1.7 0.9-0.1 6.2-2.2 6.2z" fill="transparent" stroke="#fff"></path>
+                            <path class="voltage line-2" d="m216.3 52.1c-3 0-3-0.5-6-0.5s-3 3-6 3-3-2-6-2-3 1.6-6 1.6-3-0.4-6-0.4-3-1.2-6-1.2-3 3.4-6 3.4-3-2.2-6-2.2-3-3.4-6-3.4-3-0.5-6-0.5-3 1.4-6 1.4-3 4.8-6 4.8-3-5.5-6-5.5-3 2-6 2-3 2-6 2-3 1.6-6 1.6-3-4.4-6-4.4-3-0.2-6-0.2-3 1-6 1-3 3.1-6 3.1-3-4.9-6-4.9-3 1.5-6 1.5-3 1.6-6 1.6-3-1.3-6-1.3-3 3.7-6 3.7-3-6.4-6-6.4-3 2.5-6 2.5h-6c-3 0-3-0.6-6-0.6s-3-1.4-6-1.4-3 0.9-6 0.9-3 4.3-6 4.3-3-3.5-6-3.5c-2.2 0-3.4-1.3-5.2-2.3-1.8-1.1-3.6-1.5-4.6-3.3s-4.4-3.5-4.4-5.7c0-3.4 0.4-3.4 0.4-6.8s2.9-3.4 2.9-6.8-0.8-3.4-0.8-6.8c0-2.2 0.3-4.2 1.3-5.9 1.1-1.8 0.8-6.2 2.6-7.3 1.8-1 5.5-2 7.7-2 3 0 3 2 6 2s3-0.5 6-0.5 3 5.1 6 5.1 3-1.1 6-1.1 3-5.6 6-5.6 3 4.8 6 4.8 3 0.6 6 0.6 3-3.8 6-3.8 3 5.1 6 5.1 3-0.6 6-0.6 3-1.2 6-1.2 3-2.6 6-2.6 3-0.6 6-0.6 3 2.9 6 2.9 3-4.1 6-4.1 3 0.1 6 0.1 3 3.7 6 3.7 3 0.1 6 0.1 3-0.6 6-0.6 3 0.7 6 0.7 3-2.2 6-2.2 3 4.4 6 4.4 3-1.7 6-1.7 3-4 6-4 3 4.7 6 4.7 3-0.5 6-0.5 3-0.8 6-0.8 3-3.8 6-3.8 3 6.3 6 6.3 3-4.8 6-4.8 3 1.9 6 1.9 3-1.9 6-1.9 3 1.3 6 1.3c2.2 0 5-0.5 6.7 0.5 1.8 1.1 2.4 4 3.5 5.8 1 1.8 0.3 3.7 0.3 5.9 0 3.4 3.4 3.4 3.4 6.8s-3.3 3.4-3.3 6.8 4 3.4 4 6.8c0 2.2-6 2.7-7 4.4-1.1 1.8 1.1 6.7-0.7 7.7-1.6 0.8-4.7-1.1-6.8-1.1z" fill="transparent" stroke="#fff"></path>
+                        </svg>
+                        <div class="dots">
+                            <div class="dot dot-1"></div>
+                            <div class="dot dot-2"></div>
+                            <div class="dot dot-3"></div>
+                            <div class="dot dot-4"></div>
+                            <div class="dot dot-5"></div>
+                        </div>
+                        </div>
+                    </li>
+
+                    <li class="nav-item px-1" id="navbarResponsive">
+                        <div class="voltage-button">
+                        
+                        <button id="button-font">Download</button>
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 234.6 61.3" preserveAspectRatio="none" xml:space="preserve">
+                        
+                            <filter id="glow">
+                            <feGaussianBlur class="blur" result="coloredBlur" stdDeviation="2"></feGaussianBlur>
+                            <feTurbulence type="fractalNoise" baseFrequency="0.075" numOctaves="0.3" result="turbulence"></feTurbulence>
+                        <feDisplacementMap in="SourceGraphic" in2="turbulence" scale="30" xChannelSelector="R" yChannelSelector="G" result="displace"></feDisplacementMap>
+                            <feMerge>
+                                <feMergeNode in="coloredBlur"></feMergeNode>
+                                <feMergeNode in="coloredBlur"></feMergeNode>
+                                <feMergeNode in="coloredBlur"></feMergeNode>
+                                <feMergeNode in="displace"></feMergeNode>
+                                <feMergeNode in="SourceGraphic"></feMergeNode>
+                            </feMerge>
+                            </filter>
+                            <path class="voltage line-1" d="m216.3 51.2c-3.7 0-3.7-1.1-7.3-1.1-3.7 0-3.7 6.8-7.3 6.8-3.7 0-3.7-4.6-7.3-4.6-3.7 0-3.7 3.6-7.3 3.6-3.7 0-3.7-0.9-7.3-0.9-3.7 0-3.7-2.7-7.3-2.7-3.7 0-3.7 7.8-7.3 7.8-3.7 0-3.7-4.9-7.3-4.9-3.7 0-3.7-7.8-7.3-7.8-3.7 0-3.7-1.1-7.3-1.1-3.7 0-3.7 3.1-7.3 3.1-3.7 0-3.7 10.9-7.3 10.9-3.7 0-3.7-12.5-7.3-12.5-3.7 0-3.7 4.6-7.3 4.6-3.7 0-3.7 4.5-7.3 4.5-3.7 0-3.7 3.6-7.3 3.6-3.7 0-3.7-10-7.3-10-3.7 0-3.7-0.4-7.3-0.4-3.7 0-3.7 2.3-7.3 2.3-3.7 0-3.7 7.1-7.3 7.1-3.7 0-3.7-11.2-7.3-11.2-3.7 0-3.7 3.5-7.3 3.5-3.7 0-3.7 3.6-7.3 3.6-3.7 0-3.7-2.9-7.3-2.9-3.7 0-3.7 8.4-7.3 8.4-3.7 0-3.7-14.6-7.3-14.6-3.7 0-3.7 5.8-7.3 5.8-2.2 0-3.8-0.4-5.5-1.5-1.8-1.1-1.8-2.9-2.9-4.8-1-1.8 1.9-2.7 1.9-4.8 0-3.4-2.1-3.4-2.1-6.8s-9.9-3.4-9.9-6.8 8-3.4 8-6.8c0-2.2 2.1-2.4 3.1-4.2 1.1-1.8 0.2-3.9 2-5 1.8-1 3.1-7.9 5.3-7.9 3.7 0 3.7 0.9 7.3 0.9 3.7 0 3.7 6.7 7.3 6.7 3.7 0 3.7-1.8 7.3-1.8 3.7 0 3.7-0.6 7.3-0.6 3.7 0 3.7-7.8 7.3-7.8h7.3c3.7 0 3.7 4.7 7.3 4.7 3.7 0 3.7-1.1 7.3-1.1 3.7 0 3.7 11.6 7.3 11.6 3.7 0 3.7-2.6 7.3-2.6 3.7 0 3.7-12.9 7.3-12.9 3.7 0 3.7 10.9 7.3 10.9 3.7 0 3.7 1.3 7.3 1.3 3.7 0 3.7-8.7 7.3-8.7 3.7 0 3.7 11.5 7.3 11.5 3.7 0 3.7-1.4 7.3-1.4 3.7 0 3.7-2.6 7.3-2.6 3.7 0 3.7-5.8 7.3-5.8 3.7 0 3.7-1.3 7.3-1.3 3.7 0 3.7 6.6 7.3 6.6s3.7-9.3 7.3-9.3c3.7 0 3.7 0.2 7.3 0.2 3.7 0 3.7 8.5 7.3 8.5 3.7 0 3.7 0.2 7.3 0.2 3.7 0 3.7-1.5 7.3-1.5 3.7 0 3.7 1.6 7.3 1.6s3.7-5.1 7.3-5.1c2.2 0 0.6 9.6 2.4 10.7s4.1-2 5.1-0.1c1 1.8 10.3 2.2 10.3 4.3 0 3.4-10.7 3.4-10.7 6.8s1.2 3.4 1.2 6.8 1.9 3.4 1.9 6.8c0 2.2 7.2 7.7 6.2 9.5-1.1 1.8-12.3-6.5-14.1-5.5-1.7 0.9-0.1 6.2-2.2 6.2z" fill="transparent" stroke="#fff"></path>
+                            <path class="voltage line-2" d="m216.3 52.1c-3 0-3-0.5-6-0.5s-3 3-6 3-3-2-6-2-3 1.6-6 1.6-3-0.4-6-0.4-3-1.2-6-1.2-3 3.4-6 3.4-3-2.2-6-2.2-3-3.4-6-3.4-3-0.5-6-0.5-3 1.4-6 1.4-3 4.8-6 4.8-3-5.5-6-5.5-3 2-6 2-3 2-6 2-3 1.6-6 1.6-3-4.4-6-4.4-3-0.2-6-0.2-3 1-6 1-3 3.1-6 3.1-3-4.9-6-4.9-3 1.5-6 1.5-3 1.6-6 1.6-3-1.3-6-1.3-3 3.7-6 3.7-3-6.4-6-6.4-3 2.5-6 2.5h-6c-3 0-3-0.6-6-0.6s-3-1.4-6-1.4-3 0.9-6 0.9-3 4.3-6 4.3-3-3.5-6-3.5c-2.2 0-3.4-1.3-5.2-2.3-1.8-1.1-3.6-1.5-4.6-3.3s-4.4-3.5-4.4-5.7c0-3.4 0.4-3.4 0.4-6.8s2.9-3.4 2.9-6.8-0.8-3.4-0.8-6.8c0-2.2 0.3-4.2 1.3-5.9 1.1-1.8 0.8-6.2 2.6-7.3 1.8-1 5.5-2 7.7-2 3 0 3 2 6 2s3-0.5 6-0.5 3 5.1 6 5.1 3-1.1 6-1.1 3-5.6 6-5.6 3 4.8 6 4.8 3 0.6 6 0.6 3-3.8 6-3.8 3 5.1 6 5.1 3-0.6 6-0.6 3-1.2 6-1.2 3-2.6 6-2.6 3-0.6 6-0.6 3 2.9 6 2.9 3-4.1 6-4.1 3 0.1 6 0.1 3 3.7 6 3.7 3 0.1 6 0.1 3-0.6 6-0.6 3 0.7 6 0.7 3-2.2 6-2.2 3 4.4 6 4.4 3-1.7 6-1.7 3-4 6-4 3 4.7 6 4.7 3-0.5 6-0.5 3-0.8 6-0.8 3-3.8 6-3.8 3 6.3 6 6.3 3-4.8 6-4.8 3 1.9 6 1.9 3-1.9 6-1.9 3 1.3 6 1.3c2.2 0 5-0.5 6.7 0.5 1.8 1.1 2.4 4 3.5 5.8 1 1.8 0.3 3.7 0.3 5.9 0 3.4 3.4 3.4 3.4 6.8s-3.3 3.4-3.3 6.8 4 3.4 4 6.8c0 2.2-6 2.7-7 4.4-1.1 1.8 1.1 6.7-0.7 7.7-1.6 0.8-4.7-1.1-6.8-1.1z" fill="transparent" stroke="#fff"></path>
+                        </svg>
+                        <div class="dots">
+                            <div class="dot dot-1"></div>
+                            <div class="dot dot-2"></div>
+                            <div class="dot dot-3"></div>
+                            <div class="dot dot-4"></div>
+                            <div class="dot dot-5"></div>
+                        </div>
+                        </div>
+                    </li>
+                
+                </ul>
+                <button class="btn btn-primary feedback-button mb-2 mb-lg-0" data-bs-toggle="modal"
+                    data-bs-target="#feedbackModal">
+                    <span class="d-flex align-items-center">
+                        <i class="bi-chat-text-fill me-2"></i>
+                        <span class="small">Send Feedback</span>
+                    </span>
+                </button>
+            </div>
+        </div>
+    </nav>
+   
+    <!-- Header -->
+
+    <header class="masthead ">
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6">
+                    <!-- text and app badges-->
+                    <div class="mb-5 mb-lg-0 text-center text-lg-start">
+                        <h1 class="head-1 display-1 lh-1 my-3 ">"Embrace the Chaos: Unleash Your Adventure!"</h1>
+                        <p class="head-paragraph lead fw-normal text-muted mb-5">"Immerse yourself in the depths of the wild and push your limits! Far Cry: Unleashed Adventure transports you to an exhilarating world filled with mysterious islands, dangerous foes, and thrilling missions. Think strategically to survive, utilize your environment, and embark on an unforgettable journey. This isn’t just a game; it’s a lifestyle!"</p>                            
+                        <div class="d-flex flex-column flex-lg-row align-items-center">
+                            <a class="me-lg-3 mb-4 mb-lg-0" href="#!"><img class="app-badge" src="/images/google-play-badge.svg" alt="google-play-badge"></a>
+                            <a href="#!"><img class="app-badge" src="/images/app-store-badge.svg" alt="app-store-badge"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- device mockup feature-->
+                
+                <div class="col-lg-6">
+                    <div class="masthead-device-mockup position-relative">
+                        <svg class="circle" viewBox="0 0 100 100">
+                            <defs>
+                                <linearGradient id="circleGradient" gradientTransform="rotate(45)">
+                                    <stop class="gradient-start-color" offset="0%"></stop>
+                                    <stop class="gradient-end-color" offset="100%"></stop>
+                                </linearGradient>
+                            </defs>
+                            <circle cx="50" cy="50" r="50"></circle>
+                        </svg>
+                        <svg class="shape-1 d-none d-sm-block" viewBox="0 0 240.83 240.83">
+                            <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03" transform="translate(120.42 -49.88) rotate(45)"></rect>
+                            <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03" transform="translate(-49.88 120.42) rotate(-45)"></rect>
+                        </svg>
+                        <svg class="shape-2 d-none d-sm-block" viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="50"></circle>
+                        </svg>
+                        <div class="device-wrapper z-1">
+                            <img class="phone-screen img-fluid" src="/images/phone-screen.png">
+                        </div>
+                    </div>
+                </div>
+            </div>      
+        </div>             
+    </header>
+
+    <!-- Quote/testimonial aside-->
+
+    <aside class="text-center bg-gradient-primary-to-secondary">
+        <div class="container px-5">
+            <div class="row gx-5 justify-content-center">
+                <div class="col-xl-8">
+                    <div class="head-quote h2 fs-1 text-white mb-4">"In the heart of the wilderness, every choice you make defines your journey—embrace the adventure, for only the daring will discover their true potential."</div>
+                    <img src="/images/tnw-logo.png" alt="tnw-logo" style="height: 3rem" />
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <!-- App features section-->
+
+    <section class="Icons-bg" id="features">
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-8 order-lg-1 mb-5 mb-lg-0">
+                    <div class="container-fluid px-5">
+                        <div class="row gx-5">
+                            <div class="col-md-6 mb-5">
+                                
+                                <!-- Feature items -->
+
+                                <div class="text-center">
+                                    <i class="bi-phone icon-feature text-gradient d-block mb-3"></i>
+                                    <h3 class="font-alt">Device Mockups</h3>
+                                    <p class="text-muted mb-0">Ready to use HTML/CSS device mockups, no Photoshop
+                                        required!</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-5">
+                                <div class="text-center">
+                                    <i class="bi-camera icon-feature text-gradient d-block mb-3"></i>
+                                    <h3 class="font-alt">Flexible Use</h3>
+                                    <p class="text-muted mb-0">Put an image, video, animation, or anything else in the
+                                        screen!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-5 mb-md-0">    
+                                 <div class="text-center">
+                                    <i class="bi-gift icon-feature text-gradient d-block mb-3"></i>
+                                    <h3 class="font-alt">Free to Use</h3>
+                                    <p class="text-muted mb-0">As always, this theme is free to download and use for any
+                                        purpose!</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="text-center">
+                                    <i class="bi-patch-check icon-feature text-gradient d-block mb-3"></i>
+                                    <h3 class="font-alt">Open Source</h3>
+                                    <p class="text-muted mb-0">Since this theme is MIT licensed, you can use it
+                                        commercially!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 order-lg-0">
+                     <!-- Features section device mockup-->
+                     <div class="features-device-mockup">
+                        <svg class="circle" viewBox="0 0 100 100">
+                            <defs>
+                                <linearGradient id="circleGradient" gradientTransform="rotate(45)">
+                                    <stop class="gradient-start-color" offset="0%"></stop>
+                                    <stop class="gradient-end-color" offset="100%"></stop>
+                                </linearGradient>
+                            </defs>
+                            <circle cx="50" cy="50" r="50"></circle>
+                        </svg>
+                        <svg class="shape-1 d-none d-sm-block" viewBox="0 0 240.83 240.83">
+                            <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03"
+                                transform="translate(120.42 -49.88) rotate(45)"></rect>
+                            <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03"
+                                transform="translate(-49.88 120.42) rotate(-45)"></rect>
+                        </svg>
+                        <svg class="shape-2 d-none d-sm-block" viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="50"></circle>
+                        </svg>
+                        <div class="device-wrapper z-1">
+                            <img class="phone-screen img-fluid" src="/images/phone-screen.png"  />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Basic features section-->
+    <section class="bg-light bg-gradient-primary-to-secondary">
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between">
+                <div class="col-12 col-lg-5">
+
+                    <h2 class="explanation display-4 lh-1 mb-4">Dynamic Environment Interaction</h2>
+                    <p class="explanation lead fw-normal text-muted mb-5 mb-lg-0">Experience an ever-evolving world where your decisions shape the landscape around you. In Far Cry: Unleashed Adventure, every action—be it a stealthy approach, an all-out assault, or forging alliances—alters the environment, creating unique challenges and opportunities. Whether you're setting traps in the dense jungle or negotiating with local tribes, your gameplay choices influence not just your story but the world itself. Dive into an immersive experience where adaptability is key, and every moment counts.</p>
+  
+                </div>
+                <div class="col-sm-8 col-md-6">
+                    <div class=" px-sm-0"><img class="img-fluid"
+                            src="/images/coolgame.png" alt="..." /></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Call to action section-->
+    <section class="cta">
+        <div class="cta-content">
+            <div class="container px-5">
+                <h2 class="text-white display-1 lh-1 mb-4">
+                    Stop waiting.
+                    <br />
+                    Start building.
+                </h2>
+                <a class="btn btn-outline-light py-3 px-4 rounded-pill" href="https://startbootstrap.com/theme/new-age"
+                    target="_blank">Download for free</a>
+            </div>
+        </div>
+    </section>
+    <!-- App badge section-->
+    <section class="bg-gradient-primary-to-secondary" id="download">
+        <div class="container px-5">
+            <h2 class="text-center text-white font-alt mb-4">Get the app now!</h2>
+            <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center">
+                <a class="me-lg-3 mb-4 mb-lg-0" href="#!"><img class="app-badge" src="/images/google-play-badge.svg"
+                        alt="google-play-badge" /></a>
+                <a href="#!"><img class="app-badge" src="/images/app-store-badge.svg" alt="app-store-badge" /></a>
+            </div>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="bg-black text-center py-5">
+        <div class="container px-5">
+            <div class="text-white-50 small">
+                <div class="mb-2">&copy; Fırat Kurtdere 2024
+                    <span class="mx-1">&middot;</span>
+                     All Rights Reserved.</div>
+                <a href="#!">Privacy</a>
+                <span class="mx-1">&middot;</span>
+                <a href="#!">Terms</a>
+                <span class="mx-1">&middot;</span>
+                <a href="#!">FAQ</a>
+            </div>
+        </div>
+    </footer>
+    <!-- Feedback Modal-->
+    <div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-gradient-primary-to-secondary p-4">
+                    <h5 class="modal-title font-alt text-white" id="feedbackModalLabel">Send feedback</h5>
+                    <button class="btn-close btn-close-white" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body border-0 p-4">
+                    <form id="contactForm" action="https://formsubmit.co/frtkrtdr@outlook.com" method="POST">
+                        <!-- Name input-->
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="name" type="text" placeholder="Enter your name..." />
+                            <label for="name">Full name</label>
+                            <div class="invalid-feedback">A name is required.</div>
+                        </div>
+                        <!-- Email address input-->
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="email" type="email" placeholder="name@example.com" />
+                            <label for="email">Email address</label>
+                            <div class="invalid-feedback">An email is required.</div>
+                            <div class="invalid-feedback">Email is not valid.</div>
+                        </div>
+                        <!-- Phone number input-->
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" />
+                            <label for="phone">Phone number</label>
+                            <div class="invalid-feedback">A phone number is required.
+                            </div>
+                        </div>
+                        <!-- Message input-->
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control" id="message" type="text"
+                                placeholder="Enter your message here..." style="height: 10rem"></textarea>
+                            <label for="message">Message</label>
+                            <div class="invalid-feedback">A message is required.
+                            </div>
+                        </div>
+                        <!-- Submit Message -->
+                        <div class="d-none" id="submitSuccessMessage">
+                            <div class="text-center mb-3">
+                                <div class="fw-bolder">Form submission successful!</div>
+                                To activate this form, sign up at
+                                <br />
+                                <a
+                                    href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                            </div>
+                        </div>
+                        <!-- Submit error message-->
+                        <div class="d-none" id="submitErrorMessage">
+                            <div class="text-center text-danger mb-3">Error sending message!</div>
+                        </div>
+                        <!-- Submit Button-->
+                        <div class="d-grid"><button class="btn btn-primary rounded-pill btn-lg"
+                                id="submitButton" type="submit">Submit</button></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+   
+</body>
+
+</html>
